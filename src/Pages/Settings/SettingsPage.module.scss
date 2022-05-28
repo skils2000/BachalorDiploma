@@ -1,0 +1,48 @@
+.settingsNav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #dddfeb;
+
+  li button {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    background: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.active {
+      color: #6e707e;
+      border-color: #dddfeb #dddfeb #fff;
+    }
+    &.nonactive {
+      &:hover {
+        color: #019A03;
+        text-decoration: none;
+        background: #b9b6b636;
+      }
+    }
+  }
+}
+
+.formsBlock {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.formButtons {
+  margin-top: 1rem;
+  display: flex;
+  text-align: left;
+  margin-left: 1.5rem;
+}

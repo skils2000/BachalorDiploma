@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  grass-gts:
+    container_name: grass-gts
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4004:80"
+    networks:
+      - global
+
+networks:
+  global:
+    external: true

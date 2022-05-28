@@ -1,0 +1,27 @@
+.collapse {
+  margin: 0 1rem;
+}
+
+.collapseInner {
+  padding: 0.5rem 0;
+  min-width: 10rem;
+  font-size: 0.85rem;
+  margin: 0 0 1rem 0;
+  display: block;
+}
+
+.collapseOpenButton {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+  background: none;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  font-size: inherit;
+}
+
+.active {
+  background: #b9b6b636;
+  font-weight: bold;
+}

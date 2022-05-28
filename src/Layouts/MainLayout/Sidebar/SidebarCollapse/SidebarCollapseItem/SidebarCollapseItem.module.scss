@@ -1,0 +1,20 @@
+.collapseItem {
+  font-size: 0.75rem;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  display: block;
+  color: #3a3b45;
+  text-decoration: none;
+  border-radius: 0.35rem;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #b9b6b636;
+  }
+}
+
+.active {
+  background: #eaecf4;
+  font-weight: bold;
+}

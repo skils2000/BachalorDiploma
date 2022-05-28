@@ -1,0 +1,24 @@
+.dropdown-menu {
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+}
+
+.dropdown-item {
+    font-size: 0.85rem;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #2e2f37;
+    text-decoration: none;
+    background-color: #00683717;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #006837;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 3%) !important;
+}

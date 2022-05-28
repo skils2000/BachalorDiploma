@@ -1,0 +1,13 @@
+.dropdown {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  &:hover {
+    color: white;
+    background: #006837;
+    border-color: #006837;
+    text-decoration: none;
+  }
+}

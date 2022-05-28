@@ -1,0 +1,31 @@
+.orgNamePopupWrap {
+  position: relative;
+  color: #5a5c69;
+}
+
+.orgNamePopup {
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+&:hover {
+     background-color: #b9b6b636;
+ }
+&:focus {
+     background-color: #b9b6b636;
+ }
+span {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+
+.orgNameText {
+  margin-right: .5rem;
+}
+
+.active {
+    background-color: #b9b6b636;
+}

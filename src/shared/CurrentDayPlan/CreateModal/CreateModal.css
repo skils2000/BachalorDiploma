@@ -1,0 +1,18 @@
+.css-1pahdxg-control {
+    color: #495057 !important;
+    border-color: #00e87a !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 104, 55, .25) !important;
+}
+
+.form-control[readonly] {
+    background-color: #b9b6b636;
+}
+
+.MyTextArea {
+    overflow: hidden;
+    overflow-wrap: break-word;
+    resize: none;
+    min-height: 6rem !important;
+
+}

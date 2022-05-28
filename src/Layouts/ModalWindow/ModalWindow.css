@@ -1,0 +1,67 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  font-family: "Open Sans sans-serif";
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.icnClose {
+  float: right;
+  padding-right: 7px;
+}
+
+.icnClose svg {
+  position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
+  width: 32px;
+}
+
+.modal__content {
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 12px;
+  background-color: white;
+  min-width: 400px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Open Sans sans-serif";
+}
+
+.Title {
+  padding-top: 10px;
+}
+
+.modal__content p {
+  margin-bottom: 0;
+}
+
+.wide {
+  width: 650px;
+}
+
+.wideMWP {
+  width: 400px;
+  font-family: "Open Sans sans-serif";
+}
+
+.veryWide {
+  min-width: 1000px;
+}
+
+.CntlAlign {
+  text-align: center;
+}
+
+.minH100 {
+  min-height: 100px;
+}
