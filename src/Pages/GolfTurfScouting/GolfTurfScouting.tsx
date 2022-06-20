@@ -31,7 +31,6 @@ export default function Connector() {
       '[{"lat":48.81220899110572,"lng":44.60187927909636},{"lat":48.81034420459643,"lng":44.60108564460563},{"lat":48.809849741995016,"lng":44.60415293466438},{"lat":48.81081040772588,"lng":44.60930083406367},{"lat":48.81321199152766,"lng":44.60844285083044},{"lat":48.81199708704074,"lng":44.6046677246043}]',
     id: "13",
   });
-  const [date, setDate] = useState("6 мая");
 
   function getUserFields() {
     GTSAPIs.getFields(1).then((response) => {
@@ -56,7 +55,7 @@ export default function Connector() {
         setField={setField}
         reloadFieldsList={getUserFields}
       />
-      <FieldStats field={field} date={date}></FieldStats>
+      <FieldStats field={field}></FieldStats>
     </div>
   );
 }

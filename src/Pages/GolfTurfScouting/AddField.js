@@ -76,6 +76,7 @@ export const AddField = (props) => {
         coordinates: JSON.stringify(mapLayers[0].latlngs),
       },
     }).then((response) => {
+      console.log(mapLayers[0]);
       props.reloadFieldsList();
       props.setActive(false);
     });
